@@ -50,3 +50,38 @@ let pro = 5,
 
 console.log(pro);
 console.log(jpt);
+
+if (4 == 9) {
+    console.log('ok');
+}
+else {
+    console.log('Error');
+}
+
+const num = 50;
+
+if (num < 50) {
+    console.log('Error');
+} else if (num > 100) {
+    console.log('Много');
+} else {
+    console.log('ok');
+}
+
+(num === 50) ? console.log('ok') : console.log('Error');
+
+const num = 50;
+switch (num) {
+    case 49:
+        console.log('неверно');
+        break;
+    case 100:
+        console.log('неверно');
+        break;
+    case 50:
+        console.log('ok');
+        break;
+    default:
+        console.log('not');
+        break;
+}
