@@ -130,3 +130,35 @@ if (hamburger && cola || fries === 3 && nuggets) {
     console.log('Done!')
 }
 
+let num = 50;
+
+while (num > 55) {
+    console.log(num);
+    num++;
+}
+
+
+do {
+    console.log(num);
+    num++;
+}
+
+while (num < 55);
+
+
+for (let i = 1; i < 8; i++) {
+    console.log(num);
+    num++;
+}
+
+let result = '';
+const leught = 7;
+
+for (let i = 1; i < leught; i++) {
+    for (let j = 0; j < i; j++) {
+        result += "*";
+    }
+    result += '\n';
+}
+
+console.log(result);
