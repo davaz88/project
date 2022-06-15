@@ -162,3 +162,61 @@ for (let i = 1; i < leught; i++) {
 }
 
 console.log(result);
+
+
+function myfirst() {
+    console.log('Hello');
+}
+
+myfirst();
+
+let num = 20;
+
+function myfirst(text) {
+    console.log(text);
+    num = 10;
+}
+
+myfirst('hello');
+console.log(num);
+
+function calc(a, b) {
+    return (a + b);
+}
+
+console.log(calc(4, 3));
+console.log(calc(15, 32));
+console.log(calc(3, 58));
+
+function ret() {
+    let num = 32;
+    return num;
+}
+
+const log = function () {
+    console.log('hellow');
+};
+log();
+
+const calcu = (a, b) >= { return a + b };
+
+const usdcurr = 28;
+const eurcurr = 32;
+const discount = 0.9;
+
+function convert(amount, curr) {
+    return curr * amount;
+}
+
+function promotion(result) {
+    console.log(result * discount);
+}
+
+promotion(convert(500, usdcurr));
+
+const str = 'test';
+
+console.log(str.toUpperCase());
+console.log(str.toLocaleLowerCase());
+console.log(str);
+
